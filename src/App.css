@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.input{
+  width: 250px;
+  height: 25px;
+  border: none;
+  border-bottom: 2px solid darkcyan;
+  outline: none;
+  
+}
+.inpt2{
+  border: none;
+  width: 180px;
+  height: 25px;
+  outline: none;
+  border-bottom: 2px solid darkcyan;
+}
+
+.btn{
+  width: 100px;
+  height: 30px;
+  background-color: darkcyan;
+  color: white;
+  border: none;
+  margin: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+
+}
+.todoApp{
+  /* border: 2px solid darkcyan; */
+  margin: 0 auto;
+  width: 470px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+  transition: 0.3s;
+  padding: 20px;
+  margin-top: 50px;
+  border-radius: 10px;
+  
+}
+h1{
+  text-align: center;
+}
+
+.li{
+  border: 2px solid darkcyan;
+  margin: 5px;
+  padding: 7px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn1{
+  background-color: darkcyan;
+  border: none;
+  width: 100px;
+  height: 25px;
+  margin: 1px;
+  font-weight: bold;
+  color: white;
+  float: right;
+  cursor: pointer;
+  outline: none;
+}
